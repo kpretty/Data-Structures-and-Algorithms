@@ -106,4 +106,16 @@ public class SinglyLinkedListTest {
         linkedList.remove(2);
         linkedList.display();
     }
+
+    @Test
+    public void singlyLinkedListTest09() {
+        SinglyLinkedList linkedList = new SinglyLinkedList();
+        linkedList.addLast(1);
+        linkedList.addLast(2);
+        linkedList.addLast(3);
+        linkedList.addLast(4);
+        for (Integer integer : linkedList) {
+            System.out.println(integer);
+        }
+    }
 }

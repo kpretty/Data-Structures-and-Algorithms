@@ -157,7 +157,7 @@ public class SinglyLinkedList implements Iterable<Integer> {
 
             @Override
             public boolean hasNext() {
-                return head != null;
+                return pointer != null;
             }
 
             @Override
